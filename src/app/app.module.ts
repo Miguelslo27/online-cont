@@ -2,12 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { MiHeaderComponent } from './components/mi-header/mi-header.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MiHeaderComponent
+    LoginComponent
   ],
   imports: [
     BrowserModule
